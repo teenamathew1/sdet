@@ -9,9 +9,13 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 		features = "src/test/java/Features",
 		glue = {"stepDefinitions"},
-		tags = "@activity1_2",
+		tags = "@SmokeTest",
+		//tags = "@activity2_5",
 		//tags = "@activity1_1 or @activity1_2",
 		plugin = {"html: reports/json_report.html"},
+	    //plugin = {"html: test-reports"},
+		//plugin = {"pretty"},
+		//plugin = {"json: test-reports/json-report.json"},
 		monochrome = true
 		)
 
