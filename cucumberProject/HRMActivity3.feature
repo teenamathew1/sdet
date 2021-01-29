@@ -11,8 +11,3 @@ Scenario Outline: Add multiple employees
 Examples:
     | FirstName 				| LastName 				|
     | Aakash 						| Sharma  |
-
-    © 2021 GitHub, Inc.
-    Terms
-    Privacy
-    Security
